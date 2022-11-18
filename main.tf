@@ -7,7 +7,7 @@ variable azurerm_resource_group_location {
 }
 
 resource "azurerm_storage_account" "myStorage" {
-  name                     	= "storageaccountname"
+  name                     	= "demostorage250"
   resource_group_name      = var.azurerm_resource_group_name
   location                 	= var.azurerm_resource_group_location
   account_tier             	= "Standard"
